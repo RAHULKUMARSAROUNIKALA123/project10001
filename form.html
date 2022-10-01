@@ -1,0 +1,116 @@
+<html>
+    <head>
+        <title></title>
+            <style>
+                #main{
+                    height:90%;
+                    width:60%;
+                    margin:0 auto;
+                    
+                }
+                #main h1{
+                    text-align:center;
+                    font-family:cursive;
+                }
+                #login{
+                    border-right:1px solid black;
+                    float:left;
+                    width:50%;
+                    height:100%;
+                    padding-left:10px;
+                   
+                     
+                }
+                #login input{
+                    width:90%;
+                    height:40px;
+                    border-radius:3px;
+                     font-family:cursive;
+                    transition-duration:1s;
+                    
+                }
+                #login h3{
+                    text-decoration:underline solid blue;
+                }
+                #login h6{
+                    text-align:right;
+                    margin-right:46px;
+                    font-size:14px;
+                }
+                #login .input:hover{
+                    background:blue;
+                    color:white;
+                }
+                #register{
+                      
+                    float:right;
+                    width:50%;
+                    height:100%;
+                    margin-top:-667px;
+                    
+                     
+                }
+                #register label{
+                    margin-left:30px;
+                }
+                #register .input_type{
+                     margin-left:30px;
+                     width:90%;
+                     height:40px;
+                     border:3px solid inset;
+                    border-radius:5px;
+                }
+                #register h3{
+                    text-decoration:underline solid blue;
+                    margin-left:30px;
+                }
+                #register .input{
+                margin-left:30px;
+                width:90%;
+                height:40px;
+
+                
+
+                }
+            </style>
+         
+    </head>
+    <body>
+        <div id="main">
+            <h1>CUSTOMER LOGIN</h1>
+            <div id="login">
+                <form action=""> 
+                <h3>ALREADY A CUSTOMER</h3>
+                <label for="">Email</label><br>
+                <input type="email" class="input_type"><br><br>
+                <label for="">Passord</label><br>
+                <input type="password" class="input_type">
+                <h6>Forget password</h6>
+                <input type="submit" value="SIGN IN" class="input">
+                </form>
+                <hr width="90%" align="left">
+                <input type="submit" value="Login with facebook" style="background:blue; color:white;"/><BR><BR>
+                <input type="submit" value="Login with google" style="background:skyblue; color:white;" />
+
+            </div>
+            <div id="register">
+                <h3>NEW CUSTOMER</h3>
+                <form action="">
+                <label for="">First name</label><br>
+                <input type="text" class="input_type"><br><br>
+                <label for="">Last name</label><br>
+                <input type="text" class="input_type"><br><br>
+                <label for="">Email</label><br>
+                <input type="email" class="input_type"><br><br>
+                <label for="">Number</label><br>
+                <input type="number" class="input_type"/><br><br>
+                <label for="">Passord</label><br>
+                <input type="password" class="input_type"><br><br>
+                <label for=""> Confirm Passord</label><br>
+                <input type="password" class="input_type"><br><br>
+                <input type="submit" value="SIGN IN" class="input">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
